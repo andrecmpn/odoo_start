@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <odoo>
 
-    <!-- Calendar Events Types : Views and Actions -->
+    <!-- Calendar Events Types... : Views and Actions -->
     <record id="view_calendar_event_type_tree" model="ir.ui.view">
         <field name="name">calendar.event.type</field>
         <field name="model">calendar.event.type</field>
@@ -297,7 +297,7 @@
         <field name="view_mode">calendar,tree,form</field>
         <field name="view_id" ref="view_calendar_event_calendar"/>
         <field name="search_view_id" ref="view_calendar_event_search"/>
-        <field name="help" type="html">
+        <field invisible="1" name="help" type="html">
           <p class="o_view_nocontent_smiling_face">
             Schedule a new meeting
           </p><p>
