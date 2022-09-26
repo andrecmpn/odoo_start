@@ -93,7 +93,7 @@
                             </group>
                             <group>
                                 <field name="department_id"/>
-                                <field name="parent_id"/>
+                                <field invisible="1" name="parent_id"/>
                                 <field name="coach_id"/>
                             </group>
                         </group>
@@ -214,7 +214,7 @@
                     <field name="company_id" groups="base.group_multi_company" readonly="1"/>
                     <field name="department_id"/>
                     <field name="job_id"/>
-                    <field name="parent_id"/>
+                    <field invisible="1" name="parent_id"/>
                     <field name="work_location" optional="hide"/>
                     <field name="coach_id" invisible="1"/>
                 </tree>
